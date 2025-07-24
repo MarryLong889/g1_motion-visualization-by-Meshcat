@@ -43,7 +43,7 @@ class PinocchioCSVPlayer:
         print("[INFO] MeshCat 可视化器就绪")
         # time.sleep(10)  # 等待可视化器加载
         # 加载CSV运动数据
-        self.load_csv_data(os.path.join(current_path, "x_pre_finall_data/337_bixin.seq"))
+        self.load_csv_data(os.path.join(current_path, "motion_guzhang.seq"))
 
     def load_csv_data(self, csv_path):
         if not os.path.exists(csv_path):
